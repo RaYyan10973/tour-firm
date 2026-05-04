@@ -1,0 +1,14 @@
+.DS_Store
+.git
+
+backend/.venv
+backend/__pycache__
+backend/app.db
+backend/data
+backend/.env
+backend/**/*.pyc
+
+frontend/node_modules
+frontend/.env
+
+mcps
