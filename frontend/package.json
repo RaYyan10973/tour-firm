@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "dependencies": {
     "lucide-react": "^0.511.0",
@@ -17,6 +19,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^4.5.14"
+    "@testing-library/jest-dom": "^5.16.6",
+    "@testing-library/react": "^13.4.0",
+    "jsdom": "^20.0.3",
+    "vite": "^4.5.14",
+    "vitest": "^0.34.6"
   }
 }

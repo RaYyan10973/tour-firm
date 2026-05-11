@@ -155,6 +155,26 @@ npm run dev
 
 Frontend по умолчанию: `http://127.0.0.1:5173`
 
+## Запуск тестов
+
+### Backend (pytest)
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest
+```
+
+### Frontend (vitest)
+
+```bash
+cd frontend
+npm install
+npm run test:run
+```
+
 ## Запуск через Docker
 
 Из корня проекта:
